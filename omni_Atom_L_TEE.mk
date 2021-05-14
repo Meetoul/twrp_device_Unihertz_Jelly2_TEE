@@ -28,11 +28,11 @@ PRODUCT_BRAND := Unihertz
 PRODUCT_MODEL := Atom_L
 PRODUCT_MANUFACTURER := Unihertz
 
-PRODUCT_BOARD := g63v71c2k_dfl_tee
+PRODUCT_BOARD := g55v71c2k_dfl_tee
 
 # Add fingerprint from Stock ROM build.prop
-BUILD_FINGERPRINT := "Unihertz/Atom_L/Atom_L:10/QP1A.190711.020/root.20200925.171920:user/release-keys"
+BUILD_FINGERPRINT := "Unihertz/Jelly2/Jelly2:10/QP1A.190711.020/root.20200617.180704:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=Atom_L_TEE \
-    PRODUCT_NAME=Atom_L \
-    PRIVATE_BUILD_DESC="Atom_L-user 10 QP1A.190711.020 root.20200925.171920 release-keys"
+    TARGET_DEVICE=Jelly2_TEE \
+    PRODUCT_NAME=Jelly2 \
+    PRIVATE_BUILD_DESC="Jelly2-user 10 QP1A.190711.020 root.20200617.180704 release-keys"
