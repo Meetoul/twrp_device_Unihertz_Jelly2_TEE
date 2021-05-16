@@ -3,12 +3,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
--include device/Unihertz/Atom_LXL/BoardConfigCommon.mk
+-include device/Unihertz/Jelly2/BoardConfigCommon.mk
 
-DEVICE_REGION_PATH := device/Unihertz/Atom_L_TEE
+DEVICE_REGION_PATH := device/Unihertz/Jelly2_TEE
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := g63v71c2k_dfl_tee
+TARGET_BOOTLOADER_BOARD_NAME := g55v71c2k_dfl_tee
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_REGION_PATH)/prebuilt/Image.gz

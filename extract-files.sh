@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=Atom_L_TEE
+export DEVICE=Jelly2_TEE
 export VENDOR=Unihertz
 
 MY_DIR="${BASH_SOURCE%/*}"
@@ -25,4 +25,4 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 LINEAGE_ROOT="${MY_DIR}"/../../..
 
-"${LINEAGE_ROOT}/device/${VENDOR}/Atom_LXL/extract-files.sh" "$@"
+"${LINEAGE_ROOT}/device/${VENDOR}/Jelly2/extract-files.sh" "$@"
